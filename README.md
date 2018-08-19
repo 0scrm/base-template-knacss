@@ -22,7 +22,7 @@ Visit the [emmet.io/download](https://emmet.io/download/) to add Emmet to your f
 
 ### Yarn
 
-Visit [https://yarnpkg.com/docs/install](https://yarnpkg.com/docs/install/#mac-tab) to install Yarn dependency manager.
+Visit [yarnpkg.com/docs/install](https://yarnpkg.com/docs/install/#mac-tab) to install Yarn dependency manager.
 
 ### Download the dependencies NPM
 
@@ -33,13 +33,13 @@ yarn install
 ## Usage 
 
 ### Build project
-(Sass compilation)
+Sass compilation + autoprefixer + minify
 ```bash
 gulp build
 ```
 
 ### Run project
-Browser Sync & compilation on save (default task)
+Browser Sync & **Build** on save (default task)
 ```bash
 gulp
 ```
