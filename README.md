@@ -14,11 +14,11 @@ Visit [https://gulpjs.com/](https://gulpjs.com/)
 
 ### Sass
 
-Visit the [sass-lang.com/install](http://sass-lang.com/install) to install Sass.
+Visit [sass-lang.com/install](http://sass-lang.com/install) to install Sass.
 
 ### Emmet
 
-Visit the [emmet.io/download](https://emmet.io/download/) to add Emmet to your favorite IDE.
+Visit [emmet.io/download](https://emmet.io/download/) to add Emmet to your favorite IDE.
 
 ### Yarn
 
