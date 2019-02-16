@@ -48,11 +48,11 @@ The SASS files are located in `/sass`.
 * `vendor/` : Default third party "plugins"
 * `components/` : Default KNACSS components
 
-Custom Sass folder :
+Custom SASS folder :
 * `template/` : User's variables & custom stylesheets
 
 ## What about creating your website using KNACSS ?
 
-Even if KNACSS is super light and easy-to-use, you'll need to go trough the (small — but in French) [documentation](https://www.knacss.com/doc.html).
+Even if KNACSS is super light and easy-to-use, you'll need to go trough the (short — but in French) [documentation](https://www.knacss.com/doc.html).
 
 Then, you can either use the ready-to-use `knacss.css` file or work with the sass files.
