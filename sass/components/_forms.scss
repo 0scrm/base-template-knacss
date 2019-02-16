@@ -40,7 +40,6 @@ label {
 [type="week"],
 select,
 textarea {
-  white-space: nowrap;
   font-family: inherit;
   font-size: inherit;
   border: 0;
@@ -82,7 +81,7 @@ textarea {
   min-height: 5em;
   vertical-align: top;
   resize: vertical;
-  white-space: normal;
+  white-space: pre-wrap;
 }
 
 /* 'x' appears on right of search input when text is entered. This removes it */
