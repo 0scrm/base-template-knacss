@@ -1,6 +1,6 @@
 {
   "name": "base-template-knacss",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Automated Gulp & KNACSS base template",
   "main": "gulpfile.js",
   "scripts": {

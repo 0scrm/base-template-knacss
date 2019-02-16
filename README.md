@@ -1,12 +1,12 @@
 # base-template-knacss
 
 
-Boilerplate SCSS based on [KNACSS](https://www.knacss.com/) template, using Gulp, Saas, Emmet & Yarn. Minimalist on purpose, for optimal modularity.
+SASS boilerplate based on [KNACSS](https://github.com/alsacreations/KNACSS) template, using Gulp, Saas & Yarn. Minimalist on purpose, for a better modularity.
 
-* Work directory  : `assets/scss/` 
-* Build directory : `assets/css/`
+* Work directory  : `scss/` 
+* Build directory : `css/`
 
-## Installation
+## Installation requirements
 
 ### Gulp
 
@@ -16,15 +16,11 @@ Visit [https://gulpjs.com/](https://gulpjs.com/)
 
 Visit [sass-lang.com/install](http://sass-lang.com/install) to install Sass.
 
-### Emmet
-
-Visit [emmet.io/download](https://emmet.io/download/) to add Emmet to your favorite IDE.
-
 ### Yarn
 
 Visit [yarnpkg.com/docs/install](https://yarnpkg.com/docs/install/#mac-tab) to install Yarn dependency manager.
 
-### Download the dependencies NPM
+### Download the dependencies
 
 ```bash
 yarn install
@@ -46,10 +42,17 @@ gulp
 
 ## How it works
 
-The SCSS files are located in `/assets/scss`.
-* **config/** : Default configuration files.
-* **library/** : Default KNACSS librairies
-* **vendor/** : Default third party plugins
-* **components/** : Default KNACSS components 
+The SCSS files are located in `/scss`.
+* `config/` : Default configuration files
+* `library/` : Default KNACSS librairies
+* `vendor/` : Default third party "plugins"
+* `components/` : Default KNACSS components
+
 Custom Sass folder :
 * **template/** : User's variables & custom stylesheets
+
+## What about creating your website using KNACSS ?
+
+Even if KNACSS is super light and easy-to-use, you'll need to go trough the (small — but in French) [documentation](https://www.knacss.com/doc.html).
+
+Then, you can either use the ready-to-use `knacss.css` file 

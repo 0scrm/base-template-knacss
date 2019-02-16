@@ -8,27 +8,27 @@ var prefixerOptions = {
 };
 
 gulp.task('sass', function () {  
-    gulp.src('assets/scss/style.scss')
-        .pipe(sass({includePaths: ['scss']}))
+    gulp.src('./sass/**/*.scss')
+        .pipe(sass({includePaths: ['sass']}))
         .pipe(prefix(prefixerOptions))
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(stripCssComments({
             preserve: false
         }))
-        .pipe(gulp.dest('assets/css'));
+        .pipe(gulp.dest('./css/'));
 });
 
 gulp.task('browser-sync', function() {  
-    browserSync.init(["assets/css/*.css", "assets/js/*.js"], {
+    browserSync.init(["css/*.css"], {
         server: {
             baseDir: "./"
         },
-        open: false,
+        open: true,
         notify: false
     });
 });
 gulp.task('build', ['sass']);
 gulp.task('default', ['sass', 'browser-sync'], function () {  
     gulp.watch("*.html", browserSync.reload);
-    gulp.watch("assets/scss/**/*.scss", ['sass']);
+    gulp.watch("/sass/**/*.scss", ['sass']);
 });
