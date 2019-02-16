@@ -3,7 +3,7 @@
 
 SASS boilerplate based on [KNACSS](https://github.com/alsacreations/KNACSS) template, using Gulp, Saas & Yarn. Minimalist on purpose, for a better modularity.
 
-* Work directory  : `scss/` 
+* Work directory  : `sass/` 
 * Build directory : `css/`
 
 ## Installation requirements
@@ -42,17 +42,17 @@ gulp
 
 ## How it works
 
-The SCSS files are located in `/scss`.
+The SASS files are located in `/sass`.
 * `config/` : Default configuration files
 * `library/` : Default KNACSS librairies
 * `vendor/` : Default third party "plugins"
 * `components/` : Default KNACSS components
 
 Custom Sass folder :
-* **template/** : User's variables & custom stylesheets
+* `template/` : User's variables & custom stylesheets
 
 ## What about creating your website using KNACSS ?
 
 Even if KNACSS is super light and easy-to-use, you'll need to go trough the (small — but in French) [documentation](https://www.knacss.com/doc.html).
 
-Then, you can either use the ready-to-use `knacss.css` file 
+Then, you can either use the ready-to-use `knacss.css` file or work with the sass files.
